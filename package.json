@@ -1,0 +1,14 @@
+{
+  "name": "website_bonita_ao_quadrado",
+  "version": "1.0.0",
+  "description": "Website bonita ao quadrado",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "João Paulo Kiyoshi",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

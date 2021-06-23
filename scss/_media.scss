@@ -1,0 +1,42 @@
+@media (max-width: 633px) {
+  #main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul li {
+    padding: 0.25rem;
+  }
+
+  .produtos,
+  .grid-gal {
+    grid-template-columns: 1fr !important;
+  }
+
+  .produto {
+    display: block;
+  }
+
+  #about-a {
+    margin-top: 3rem;
+    img {
+      display: none;
+    }
+
+    .about-info {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 1rem;
+    }
+  }
+
+  #section-galeria {
+    margin-top: 3rem;
+  }
+}
