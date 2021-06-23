@@ -229,4 +229,6 @@ a {
       justify-content: space-evenly;
       padding: 1rem; }
   #section-galeria {
-    margin-top: 3rem; } }
+    margin-top: 3rem; }
+  #main-footer .social {
+    display: flex; } }
