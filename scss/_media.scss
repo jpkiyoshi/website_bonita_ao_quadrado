@@ -14,9 +14,25 @@
     padding: 0.25rem;
   }
 
+  #section-a {
+    .produtos img {
+      height: 350px;
+    }
+  }
+
   .produtos,
   .grid-gal {
     grid-template-columns: 1fr !important;
+    justify-content: center;
+    align-items: center;
+
+    .grid-item {
+      align-self: center;
+    }
+    img {
+      height: 300px !important;
+      max-width: 375px !important;
+    }
   }
 
   .produto {

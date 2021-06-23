@@ -93,14 +93,22 @@ a {
     }
 
     img {
-      width: 100%;
+      width: auto;
+      height: 200px;
       border-radius: 5px;
+    }
+
+    a {
+      padding-bottom: 2.2rem;
     }
   }
 }
-
 #section-b {
   .bottom-line {
+    margin-bottom: 0.5rem;
+  }
+
+  h2.text-center {
     margin-bottom: 2rem;
   }
 
@@ -153,16 +161,22 @@ a {
   .grid-gal {
     display: grid;
     margin-top: 2rem;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     margin-bottom: 2rem;
 
     .grid-item {
       margin: auto;
+      margin-bottom: 3rem;
 
       img {
-        width: 100%;
+        max-width: 500px;
+        height: 400px;
         border-radius: 15px;
+      }
+
+      h3 {
+        text-align: center;
       }
     }
   }
